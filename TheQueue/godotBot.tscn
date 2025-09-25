@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://5fat1mfgjns3"]
+
+[ext_resource type="PackedScene" uid="uid://cq1obog67w3dr" path="res://queue_specific/imports/3DGodotRobot.glb" id="1_6a1wd"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="ImporterMeshInstance3D" type="ImporterMeshInstance3D" parent="."]
+
+[node name="3DGodotRobot" parent="." instance=ExtResource("1_6a1wd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0817754, -0.808216, 0.0991883)
